@@ -57,7 +57,7 @@ int main()
 	cout << "Savings Bonds: $" << amtbonds << endl;
 	cout << "Parents spent to buy Additional Bonds: $" << amtparentsbonds<< endl;
 	
-	-getch();
+	getch();
 	return 0;
 	
 }
