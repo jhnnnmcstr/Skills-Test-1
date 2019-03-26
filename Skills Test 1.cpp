@@ -11,6 +11,7 @@
 // e. The money your parents spend to buy additional savings bonds for you.
 
 #include <iostream>
+#inlcude <conio.h>
 #include <iomanip>
 
 using namespace std;
@@ -56,6 +57,7 @@ int main()
 	cout << "Savings Bonds: $" << amtbonds << endl;
 	cout << "Parents spent to buy Additional Bonds: $" << amtparentsbonds<< endl;
 	
+	-getch();
 	return 0;
 	
 }
